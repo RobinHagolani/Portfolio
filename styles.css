@@ -45,3 +45,18 @@ a {
     color: #007bff;
     text-decoration: underline;
 }
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-image {
+    flex-shrink: 0;
+    margin-left: 20px;
+}
