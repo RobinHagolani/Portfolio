@@ -22,7 +22,15 @@
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>You can reach me at <a href="mailto:robin.hagolani@dci-student.org">robin.hagolani@dci-student.org</a> (temporal adress)</p>
+        <p>Contact me at: <span id="email"></span></p>
+            <script>
+                var user = 'robin.hagolani';
+                var domain = 'dci-student.org';
+                var element = document.getElementById('email');
+                element.innerHTML = '<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';
+            </script>
+
+        <!-- <p>You can reach me at <a href="mailto:robin.hagolani@dci-student.org">robin.hagolani@dci-student.org</a> (temporal adress)</p> -->
     </section>
 
     <footer>
